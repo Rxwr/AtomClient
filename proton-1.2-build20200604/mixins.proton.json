@@ -1,0 +1,18 @@
+{
+  "package": "me.nucleus.proton.mixin",
+  "refmap": "mixins.proton.refmap.json",
+  "target": "@env(DEFAULT)",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinAbstractClientPlayer",
+    "MixinEntity",
+    "MixinEntityLivingBase",
+    "MixinEntityPlayerSP",
+    "MixinEntityRenderer",
+    "MixinGuiConnecting",
+    "MixinGuiIngame",
+    "MixinGuiNewChat",
+    "MixinMinecraft",
+    "MixinNetworkManager"
+  ]
+}

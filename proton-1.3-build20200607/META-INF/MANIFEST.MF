@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+TweakOrder: 0
+MixinConfigs: mixins.proton.json
+FMLCorePluginContainsFMLMod: true
+FMLAT: proton_at.cfg
+tweakClass: org.spongepowered.asm.launch.MixinTweaker
+ForceLoadAsMod: true
+FMLCorePlugin: me.nucleus.proton.mixin.MixinLoaderForge
+
